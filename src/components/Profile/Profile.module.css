@@ -1,0 +1,36 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid pink;
+    border-radius: 53px;
+
+}
+.avatar {
+    /* width: 200px;
+    height: 200px; */
+    /* background-color:powderblue; */
+    /* border: 2px solid aquamarine;
+    border-radius: 100px; */
+    /* border-style: none; */
+}
+
+.description,
+.stats {
+    text-align: center;
+   
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border-top: 2px solid pink;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

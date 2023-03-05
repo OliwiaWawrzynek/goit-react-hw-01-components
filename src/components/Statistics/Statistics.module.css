@@ -1,0 +1,14 @@
+.statistics {
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.stat-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}

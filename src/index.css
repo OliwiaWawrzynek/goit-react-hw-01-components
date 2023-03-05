@@ -1,4 +1,8 @@
 @import-normalize; /* bring in normalize.css styles */
+@import './components/TransactionHistory/TransactionHistory.module';
+@import './components/Statistics/Statistics.module';
+@import './components/FriendList/FriendList.module';
+@import './components/Profile/Profile.module';
 
 body {
   margin: 0;
@@ -7,6 +11,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
