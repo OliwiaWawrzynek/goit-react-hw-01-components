@@ -3,9 +3,7 @@ import clsx from "clsx";
 
 export const FriendList = () => {
     return (
-        <ul className="friend-list">
             <FriendListItem />
-        </ul>
     );
 };
 
